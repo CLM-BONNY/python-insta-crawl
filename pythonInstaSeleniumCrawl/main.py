@@ -93,6 +93,6 @@ results_df = results_df[results_df.like > 200]
 sorted_results_df = results_df.sort_values(by='like', ascending=False)
 sorted_results_df.to_excel('hotFoodRestaurant.xlsx')
 
-# zmfha
+# 크롬 브라우저 닫기
 driver.close()
 
